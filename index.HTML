@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <h1>Balance:</h1>
+    <h1 id="display"></h1>
+  </section>
+  <div>
+    <button type="button" onclick="app.controllers.vendrController.selectItem('a1')">Rice Krispy</button>
+  </div>
+  <div>
+    <button type="button" onclick="app.controllers.vendrController.selectItem('a2')">Cheez-It</button>
+  </div>
+  <div>
+    <button type="button" onclick="app.controllers.vendrController.selectItem('a3')">Trail mix</button>
+  </div>
+  <div>
+    <br></br>
+    <button type="button" onclick="app.controllers.vendrController.addMoney()">Add:25 cents</button>
+  </div>
+  <div id="item"></div>
+  <div id="buy">
+
+  </div>
+  <div id="payment"></div>
+
+
+
+  <script type="module" src="app/models/main.js"></script>
+</body>
+
+</html>
